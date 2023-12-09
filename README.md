@@ -6,13 +6,17 @@ My solutions for Harvard's CS50 weekly labs and problem sets.
 
 ---
 
-- Problem set 0: [Scratch](psets/whistle)
+- Problem set 0:
+  - [Scratch](psets/whistle)
 
 ### Week 1 - C
 
 ---
 
-- Lab 1: [Population Growth](labs/population)
+- Lab 1:
+  - [Population Growth](labs/population)
+
+
 - Problem set 1: 
   - [Hello, It's me](psets/me)
   - [Mario (less)](psets/mario-less) and [Mario (more)](psets/mario-more)
