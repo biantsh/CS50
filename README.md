@@ -1,6 +1,6 @@
 ## CS50
 
-My solutions for Harvard's CS50 weekly labs and problem sets.
+My submissions for weekly labs and problem sets from Harvard's open source [CS50](https://cs50.harvard.edu/x/2023/) course.
 
 ### Week 0 - Scratch
 
