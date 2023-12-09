@@ -75,12 +75,12 @@ int main(void)
 {
     long number = get_long("Number: ");
 
-    if (!is_valid_card(number))
+    if (is_valid_card(number))
     {
-        printf("INVALID\n");
+        printf("%s\n", get_card_type(number));
     }
     else
     {
-        printf("%s\n", get_card_type(number));
+        printf("INVALID\n");
     }
 }
