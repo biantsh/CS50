@@ -1,4 +1,1 @@
-<video width="840" height="620" controls>
-  <source src="../assets/videos/whistle_game.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/biantsh/CS50/assets/94078217/df73c645-641f-44a7-9275-d2eb685c55ca
