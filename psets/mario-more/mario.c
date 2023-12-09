@@ -5,41 +5,28 @@
 
 int main(void)
 {
+    const int gap = 2;
     int height = 0;
 
-    while (height < 1 || height > 8) {
+    while (height < 1 || height > 8)
+    {
         height = get_int("Height: ");
     }
 
-    for (int i = 1; i < height + 1; i++)
+    for (int row = 0; row < height; row++)
     {
-        // Print space before hashes
-        for (int j = 0; j < height - i; j++)
+        for (int col = 0; col < 2 * height + gap; col++)
         {
-            printf(" ");
+            if (((col < height) && (col + row >= height - 1))  // Left pyramid
+            || ((col >= height + gap) && (col - row <= height + gap))) // Right pyramid
+            {
+                printf("#");
+            }
+            else
+            {
+                printf(" ");
+            }
         }
-
-        // Print hashes
-        for (int j = 0; j < i; j++)
-        {
-            printf("#");
-        }
-
-        // Print gap
-        printf("  ");
-
-        // Print more hashes
-        for (int j = 0; j < i; j++)
-        {
-            printf("#");
-        }
-
-        // Print space after hashes
-        for (int j = 0; j < height - i; j++)
-        {
-            printf(" ");
-        }
-
         printf("\n");
     }
 }
